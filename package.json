@@ -1,0 +1,12 @@
+{
+  "name": "ilm-choqqisi",
+  "version": "2.0.0",
+  "description": "ILM CHO‘QQISI — bilim va ma’rifat platformasi (Owner paneli va xavfsiz coin tizimi bilan)",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning tests/test.js"
+  }
+}
